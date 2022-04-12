@@ -1,0 +1,23 @@
+.link__navbar {
+    background-color: $navbar-link;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+
+    .link__to {
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        p {
+            color: $font-link-navbar;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        strong {
+            color: $font-link-navbar;
+            font-size: 20px;
+            font-weight: 800;
+        }
+    }
+}
