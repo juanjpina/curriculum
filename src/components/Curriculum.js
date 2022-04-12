@@ -11,11 +11,10 @@ export const Curriculum = () => {
             <Links />
             <div className='about__content'>
                 <Navbar />
-                <div>
+                <div className='curriculum__content'>
                     <Menu />
                 </div>
             </div>
-
         </div>
     )
 }

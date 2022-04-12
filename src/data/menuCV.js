@@ -1,18 +1,18 @@
 export const menuCV = [
     {
         'id': '1',
-        'title': 'Competencias'
+        'menu': 'Competencias',
     },
     {
         'id': '2',
-        'title': 'Formación'
+        'menu': 'Formación',
     },
     {
         'id': '3',
-        'title': 'Experiencia profesional'
+        'menu': 'Experiencia profesional',
     },
     {
         'id': '4',
-        'title': 'idiomas y hobbies'
-    }
+        'menu': 'Idiomas y hobbies',
+    },
 ]

@@ -4,8 +4,8 @@ import { skills } from '../../data/skills';
 
 export const MenuSkills = () => {
     return (
-        <ul>
-            {skills.map(boucle => <li key={boucle.id}>{boucle.title}</li>)}
+        <ul className='menu__text-skills'>
+            {skills.map(boucle => <li className='menu__Skills-list' key={boucle.id}><i className={boucle.title}></i></li>)}
         </ul>
     )
 }
