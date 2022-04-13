@@ -8,12 +8,12 @@ export const Contact = () => {
     return (
         <div>
             <div className=''>
-                <Links />
+                {/* <Links /> */}
             </div>
             <div className='about__content'>
-                <Navbar />
+                {/* <Navbar /> */}
 
-                <div className='contact__images'>
+                <div className='contact__images animate__animated animate__fadeIn'>
 
                     <div className='contact__img'>
                         <img src='/assets/img/IMG_5064.jpg' height='150' alt='JuanJosePina' />

@@ -6,10 +6,10 @@ import { MenuFormation } from './MenuFormation';
 import { MenuLanguage } from './MenuLanguage';
 
 export const Menu = () => {
-    const [competencias, setCompetencias] = useState(true);
-    const [formacion, setFormacion] = useState(true);
-    const [experience, setExperience] = useState(true);
-    const [language, setLanguage] = useState(true);
+    const [competencias, setCompetencias] = useState(false);
+    const [formacion, setFormacion] = useState(false);
+    const [experience, setExperience] = useState(false);
+    const [language, setLanguage] = useState(false);
 
     const handleClickC = (e) => {
         e.preventDefault();

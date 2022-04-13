@@ -7,10 +7,10 @@ import { Menu } from '../components/menu/Menu';
 export const Curriculum = () => {
 
     return (
-        <div className=''>
-            <Links />
+        <div>
+            {/* <Links /> */}
             <div className='about__content'>
-                <Navbar />
+                {/* <Navbar /> */}
                 <div className='curriculum__content'>
                     <Menu />
                 </div>
