@@ -7,7 +7,7 @@ export const Contact = () => {
 
     return (
         <div>
-            <div>
+            <div className=''>
                 <Links />
             </div>
             <div className='about__content'>

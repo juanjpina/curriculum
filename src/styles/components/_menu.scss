@@ -29,3 +29,10 @@
     margin-top: 2%;
     margin-left: 5%;
 }
+
+h3 {
+    &:hover {
+        transition: color 0.5s ease;
+        color: lighten($color: $navbar-link, $amount: 20);
+    }
+}

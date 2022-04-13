@@ -4,19 +4,20 @@ import { Navbar } from './navbar/Navbar'
 
 export const Project = () => {
     return (
-        <div>
+        <div className=''>
             <Links />
             <div className='about__content'>
                 <Navbar />
                 <div className='project__content'>
 
-                    <div className='project__algo project__border'></div>
-                    <div className='project__android project__border'></div>
-                    <div className='project__web project__border'>
-                        <iframe
-                            src='https://unattainable-may.000webhostapp.com/'>
 
-                        </iframe>
+                    <div className='project__android project__border'>
+
+                        <img src="\assets\img\bread.png" width="100" />
+                    </div>
+                    <div className='project__web project__border'>
+                        <img src='\assets\img\car.jpg' width="250" />
+
                     </div>
 
 

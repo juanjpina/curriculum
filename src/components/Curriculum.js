@@ -7,7 +7,7 @@ import { Menu } from '../components/menu/Menu';
 export const Curriculum = () => {
 
     return (
-        <div>
+        <div className=''>
             <Links />
             <div className='about__content'>
                 <Navbar />

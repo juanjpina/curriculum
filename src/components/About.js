@@ -5,7 +5,7 @@ import { Navbar } from './navbar/Navbar'
 
 export const About = () => {
     return (
-        <div>
+        <div className=''>
             <Links />
             <div className='about__content'>
                 <Navbar />
