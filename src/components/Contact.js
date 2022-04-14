@@ -7,11 +7,9 @@ export const Contact = () => {
 
     return (
         <div>
-            <div className=''>
-                {/* <Links /> */}
-            </div>
-            <div className='about__content'>
-                {/* <Navbar /> */}
+
+            <div className='contact__content'>
+
 
                 <div className='contact__images animate__animated animate__fadeIn'>
 

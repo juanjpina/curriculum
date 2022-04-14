@@ -15,19 +15,16 @@ import { Project } from '../components/Project';
 export const AppRouter = () => {
     return (
         <div className='animate__animated animate__fadeIn'>
-            <div>
-
-                <Router>
-                    <Links />
-                    <Navbar />
-                    <Routes>
-                        <Route path="/*" element={<About />} />
-                        <Route path="contact" element={<Contact />} />
-                        <Route path="project" element={<Project />} />
-                        <Route path="curriculum" element={<Curriculum />} />
-                    </Routes>
-                </Router>
-            </div>
+            <Router>
+                <Links />
+                <Navbar />
+                <Routes>
+                    <Route path="/*" element={<About />} />
+                    <Route path="contact" element={<Contact />} />
+                    <Route path="project" element={<Project />} />
+                    <Route path="curriculum" element={<Curriculum />} />
+                </Routes>
+            </Router>
         </div>
     )
 }
