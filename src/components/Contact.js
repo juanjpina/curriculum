@@ -1,6 +1,4 @@
 import React from 'react'
-import { Links } from './navbar/Links'
-import { Navbar } from './navbar/Navbar'
 
 export const Contact = () => {
 
@@ -25,6 +23,9 @@ export const Contact = () => {
                         <a href='https://www.linkedin.com/in/juanjos%C3%A9pina/'>
                             <img src='/assets/icons/linkedin.png' height='20' alt="" />
                         </a>
+                    </div>
+                    <div>
+                        <a href="https://drive.google.com/file/d/1F0RGw5zU1u_mHhCe9qsz3LsEnodXV2Er/view?usp=sharing" download target="_blank" title="Curriculum vitae" rel="noreferrer"><img src='/assets/icons/pdf.png' height='45' alt='curriculum' /></a>
                     </div>
 
                 </div>
