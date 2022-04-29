@@ -14,7 +14,7 @@ import { Project } from '../components/Project';
 
 export const AppRouter = () => {
     return (
-        <div className='animate__animated animate__fadeIn'>
+        <div className='animate__animated animate__fadeIn main'>
             <Router>
                 <Links />
                 <Navbar />

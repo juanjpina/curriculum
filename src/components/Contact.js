@@ -25,7 +25,7 @@ export const Contact = () => {
                         </a>
                     </div>
                     <div>
-                        <a href="https://drive.google.com/file/d/1F0RGw5zU1u_mHhCe9qsz3LsEnodXV2Er/view?usp=sharing" download target="_blank" title="Curriculum vitae" rel="noreferrer"><img src='/assets/icons/pdf.png' height='45' alt='curriculum' /></a>
+                        <a href="https://drive.google.com/file/d/1AW4v0Jus52A32fILPa2P3hMqlRiI5tJY/view?usp=sharing" download target="_blank" title="Curriculum vitae" rel="noreferrer"><img src='/assets/icons/pdf.png' height='45' alt='curriculum' /></a>
                     </div>
 
                 </div>

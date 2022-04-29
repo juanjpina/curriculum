@@ -1,10 +1,11 @@
 .link__navbar {
     background-color: $navbar-link;
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    width: 100%;
+    padding: 1% 0%;
+    width: 100vw;
     .link__to {
+        justify-content: left;
+        flex-direction: column;
+        display: flex;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 1%;

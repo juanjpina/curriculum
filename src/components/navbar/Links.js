@@ -6,7 +6,7 @@ export const Links = () => {
         <nav className='link__navbar'>
             <div className='link__to'>
                 <Link to='/'>
-                    <p> Juan Jose Pina Agudo  </p>
+                    <p> Juan José Pina Agudo  </p>
                     <strong>Full Stack</strong>
                 </Link>
             </div>

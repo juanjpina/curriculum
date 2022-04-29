@@ -9,6 +9,9 @@ $font-parraf: #0d0d0d;
 $default-font: "montserrat", sans-serif;
 $text-email: #404040;
 
-.animate__animated.animate__fadeIn {
-    --animate-duration: 2s;
+.animate__animated .animate__fadeIn {
+    --animate-duration: 1.5s;
+}
+.main {
+    width: 100%;
 }
