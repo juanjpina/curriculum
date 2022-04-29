@@ -3,12 +3,11 @@
     margin-top: 4%;
     width: 100%;
     background-color: $ground;
-    // height: 100vh;
     @media screen and (max-width: 768px) {
-        margin-top: 70%;
+        margin-top: 110%;
         margin-left: 5%;
     }
-    @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    @media screen and (min-width: 768.1px) and (max-width: 991.98px) {
         margin-top: 50%;
         margin-left: 20%;
     }
