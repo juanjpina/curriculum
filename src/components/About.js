@@ -1,20 +1,14 @@
 import React from 'react'
-import { Links } from './navbar/Links'
-import { Navbar } from './navbar/Navbar'
-
 
 export const About = () => {
     return (
-
-
         <div className='about__content'>
-            <p className='about__text'>Hola soy un desarrollador web y web móvil (fullstack) junior, he desarrollado varios proyectos y sigo creando otros nuevos.<br />
-                Soy una persona resolutiva y creativa, dentro de un espíritu de equipo.<br />
-                Mi objetivo es la seguridad y la minima complejidad en el desarrollo de codigo.<br />
-                Estoy siempre a su disposción.
-
+            <p className='about__text'>Hola, soy un desarrollador web y móvil (fullstack junior).<br />
+                Soy un apasionado de la informática y de las nuevas tecnologías. <br />
+                Mi objetivo es la seguridad y la privacidad del usuario, es por eso que sigo formándome, estudio una ingeniería informática en tecnologías de la información.
+                <br />Soy una persona resolutiva y creativa, me gusta trabajar en equipo y compartir mis conocimientos.
+                <br />No dude en contactar conmigo si quieres mas detalles de mi carrera profesional.
             </p>
         </div >
-
     )
 }

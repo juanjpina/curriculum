@@ -17,3 +17,30 @@ $text-white: #f2f2f2;
 .main {
     width: 100%;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    min-height: calc(100vh - 80px - 50px);
+    // justify-content: space-around;
+    @media screen and (max-width: 992px) and (orientation: landscape) {
+        align-items: flex-start;
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+    }
+    @media (max-width: 768px) and(orientation:landscape) {
+        align-items: flex-start;
+    }
+
+    @media (max-width: 575.98px) {
+        display: flex;
+        flex-direction: column;
+        // justify-conten;
+        align-items: center;
+        width: 100%;
+    }
+    @media (max-width: 575.98px) and(orientation:landscape) {
+    }
+}

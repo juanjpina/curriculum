@@ -1,9 +1,14 @@
 .menu__list {
     margin-bottom: 5%;
-    width: 70%;
+    width: 100%;
+
     @media screen and(max-width:768px) {
         width: 100%;
     }
+}
+
+.menu__ul {
+    margin-top: max(50px, 5%);
 }
 
 .menu__sublist {
@@ -13,21 +18,14 @@
 
 .menu__text-skills {
     margin-left: 5%;
-    // columns: 3;
-    // padding-top: 5%;
-    // padding-bottom: 5%;
     display: flex;
-    // flex-direction: column;
     flex-wrap: wrap;
 }
 
 .menu__Skills-list {
     margin-right: 5%;
-    // padding-bottom: 25%;
     margin-bottom: 5%;
     padding-top: 2%;
-    // width: 20px;
-    // height: 20px;
 }
 .menu__text-experience {
     margin-top: 2%;

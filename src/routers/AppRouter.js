@@ -7,6 +7,7 @@ import {
 import { About } from '../components/About';
 import { Contact } from '../components/Contact';
 import { Curriculum } from '../components/Curriculum';
+import { Footer } from '../components/Footer';
 import { Links } from '../components/navbar/Links';
 import { Navbar } from '../components/navbar/Navbar';
 import { Project } from '../components/Project';
@@ -17,13 +18,16 @@ export const AppRouter = () => {
         <div className='animate__animated animate__fadeIn main'>
             <Router>
                 <Links />
-                <Navbar />
-                <Routes>
-                    <Route path="/*" element={<About />} />
-                    <Route path="contact" element={<Contact />} />
-                    <Route path="project" element={<Project />} />
-                    <Route path="curriculum" element={<Curriculum />} />
-                </Routes>
+                <div className='container'>
+                    <Navbar />
+                    <Routes>
+                        <Route path="/*" element={<About />} />
+                        <Route path="contact" element={<Contact />} />
+                        <Route path="project" element={<Project />} />
+                        <Route path="curriculum" element={<Curriculum />} />
+                    </Routes>
+                </div>
+                <Footer />
             </Router>
         </div>
     )

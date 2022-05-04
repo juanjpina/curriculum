@@ -29,7 +29,7 @@ export const Menu = () => {
     }
 
     return (
-        <ul>
+        <ul className='menu__ul'>
             {menuCV.map(boucle => <li className="menu__list" key={boucle.id}  >
                 {boucle.menu === 'Competencias' && <h3 className="menu__sublist" onClick={handleClickC}>{boucle.menu}</h3>}
                 {boucle.menu === 'Competencias' && competencias && <MenuSkills />}

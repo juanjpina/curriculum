@@ -2,14 +2,16 @@
     background-color: $navbar-link;
     padding: 1% 0%;
     width: 100vw;
+    height: 80px;
     .link__to {
         justify-content: left;
         flex-direction: column;
         display: flex;
+        display: inline-block;
         margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        // margin-right: 10%;
+        // margin-top: 1%;
+        // margin-bottom: 1%;
         p {
             color: $font-link-navbar;
             font-size: 20px;

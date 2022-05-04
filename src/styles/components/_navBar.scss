@@ -3,7 +3,25 @@
     margin-left: 14%;
     margin-top: 10%;
     position: relative;
-    width: 100%;
+    width: 40%;
+    height: 500px;
+    @media screen and (max-width: 992px) and (orientation: landscape) {
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+    }
+    @media (max-width: 768px) and(orientation:landscape) {
+    }
+
+    @media (max-width: 575.98px) {
+        height: 200px;
+        // margin-left: auto;
+        // margin-right: auto;
+        width: 100%;
+    }
+    @media (max-width: 575.98px) and(orientation:landscape) {
+    }
+
     .nav__circle-div-cu,
     .nav__circle-div-co,
     .nav__circle-div-pr {
