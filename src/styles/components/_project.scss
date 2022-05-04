@@ -5,7 +5,7 @@
     align-items: center;
     flex-wrap: nowrap;
     width: 40%;
-    margin-left: 60%;
+    margin-left: 45%;
     margin-top: 0%;
     margin-right: 20%;
 
@@ -29,7 +29,7 @@
     }
 }
 .project__reducer {
-    width: 100%;
+    width: 175px;
     a {
         color: $font-parraf;
     }
@@ -53,11 +53,7 @@
         margin-bottom: 5%;
         @media screen and (max-width: 768px) {
             width: 100%;
-            // margin-left: 0%;
         }
-        // @media screen and (min-width: 768.1) and (max-width: 991.98px) {
-        //     width: 70%;
-        // }
     }
     .project__imb-bread {
         width: 25%;
@@ -66,14 +62,49 @@
         text-align: center;
         margin: 2% 0;
     }
-    @media screen and (max-width: 768px) {
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-        height: 50%;
-    }
-    @media screen and (maaxwidth: 768px) and (orientation: landscape) {
-        width: 50%;
-        height: 30%;
+    .project__img {
+        vertical-align: middle;
+        text-align: center;
+        line-height: 40px;
+        background-color: $background-img;
+        border-radius: 6px;
+        color: $text-white;
+        width: 168px;
+        height: 141px;
+
+        position: absolute;
+        // z-index: 2;
+        opacity: 0;
+        &:hover {
+            // transition-duration: 0.3s;
+            // animation-iteration-count: infinite;
+            transform-origin: bottom;
+            animation: identifier 0.3s ease both;
+            // animation-iteration-count: infinite;
+            // opacity: 0.8;
+        }
+        @keyframes identifier {
+            from {
+                // transform: translate(0px, 100px);
+                opacity: 0;
+                transform: scaleY(0%);
+            }
+            to {
+                // transform: translate(0px, 12px);
+                opacity: 0.8;
+                transform: scaleY(100%);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            height: 50%;
+        }
+        @media screen and (maaxwidth: 768px) and (orientation: landscape) {
+            width: 50%;
+            height: 30%;
+        }
     }
 }
